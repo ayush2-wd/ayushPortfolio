@@ -1,0 +1,70 @@
+.projectImage{
+    width: 60vh;
+    height: auto;
+    filter: grayscale(100%);
+    margin-bottom: 1em;
+}
+
+.projectImage:hover{
+    filter: grayscale(0);
+}
+
+.links {
+    display: flex;
+    gap: 1em;
+}
+
+
+.projectCardWrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 1em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 2em;
+    flex-wrap: wrap;
+}
+
+.deployedLink {
+    color: var(--primary-color); 
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.techIconWrapper, .techStackWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.gitLink {
+    color: var(--white);
+    height: 2em;
+    padding-left: 0.5em;
+}
+
+.techstackIcon, .techIconWrapper img {
+    height: 5vh;
+    width: 5vh;
+}
+
+.projectCardWrapper p{
+    max-width: 58vh;
+    font-size: 1.5em;
+}
+
+@media screen and (max-width:540px) {
+    .projectCardWrapper p{
+        max-width: 80vw;
+    }
+
+    .projectImage {
+        width: 80vw;
+    filter: grayscale(0%);
+
+    }
+}

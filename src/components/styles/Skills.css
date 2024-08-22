@@ -1,0 +1,35 @@
+.skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-align: left;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.skills img {
+  max-height: 7.5vh;
+  margin: 0;
+  padding: 0;
+}
+
+.skillsTitle {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  font-size: 1.5em;
+}
+
+@media screen and (max-width: 600px) {
+  .skills img {
+    max-height: 5vh;
+  }
+}
+
+@media screen and (max-width: 1024px) and (max-height:1400px) and (min-height: 700px){
+  .skills img {
+    max-height: calc(min(50px, 4vh));
+  }
+}
