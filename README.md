@@ -1,22 +1,25 @@
-# Dark theme Portfolio website
+# Ayush Keshari - Dark Theme Portfolio
 
-Visit the website - [ayushkeshari](https://ayushkeshari.github.io)
+Explore my portfolio at [ayushkeshari](https://ayushportfolio-two.vercel.app/)
 
+## Overview
 
-## Built using
-- ReactJs
+This portfolio website is built using **ReactJs** to showcase my skills, projects, and experience in a sleek, dark-themed interface.
 
-## Screenshots
-![fullPageSS.png](https://github.com/ayush2-wd/ayushPortfolio/blob/main/fullPageSS.png)
+## Preview
 
-## Available Scripts
+Check out the full-page screenshot of the website below:
 
-In the project directory, you can run:
+![Portfolio Screenshot](https://github.com/ayush2-wd/ayushPortfolio/blob/main/fullPageSS.png)
+
+## Getting Started
+
+To explore or contribute to the project, you can run the following scripts in the project directory:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Launch the app in development mode.  
+Access it locally via [http://localhost:3000](http://localhost:3000).
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **Hot Reload**: The page will automatically reload if you make edits.
+- **Linting**: Any lint errors will appear in the console for easy debugging.
