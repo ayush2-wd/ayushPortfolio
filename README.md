@@ -7,7 +7,7 @@ Visit the website - [ayushkeshari](https://ayushkeshari.github.io)
 - ReactJs
 
 ## Screenshots
-![fullPageSS](https://github.com/ayush2-wd/ayushPortfolio/blob/master/fullPageSS.png)
+![fullPageSS.png](https://github.com/ayush2-wd/ayushPortfolio/blob/main/fullPageSS.png)
 
 ## Available Scripts
 
